@@ -1,22 +1,33 @@
+# PIIM-Kaizen
 
-# Previsão de Falhas com Dados de Vibração
+## Visão Geral
 
-Este projeto utiliza dados de sensores de vibração para prever falhas em equipamentos rotativos industriais.  
-Foi desenvolvido como parte do meu MBA em Big Data e Machine Learning (SENAI CIMATEC).
+Projeto PIIM-Kaizen é uma plataforma integrada para manutenção preditiva e melhoria contínua (Kaizen) em equipamentos industriais críticos, com foco inicial em caldeiras. O sistema utiliza sensores IoT, streaming de dados via Kafka, motor Kaizen dinâmico, backend Flask seguro e frontend React para gestão operacional.
 
-## Ferramentas Utilizadas
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
+---
 
-## Objetivos
-- Simular dados de sensores industriais
-- Aplicar técnicas de machine learning para prever falhas
-- Visualizar insights técnicos para manutenção preditiva
+## Estrutura do Repositório
 
-## Resultados
-O modelo de machine learning alcançou uma acurácia de 85% na detecção de falhas potenciais.
+- `backend/` – Código do backend Flask, APIs e motor Kaizen
+- `frontend/` – Código da aplicação React para dashboard e feedback
+- `docs/` – Documentação detalhada do projeto e processos
+- `docker-compose.yml` – Configuração para ambiente local
+- `simula_sensor.py` – Script para simulação de dados de sensores
+
+---
+
+## Documentação Importante
+
+- [Testes Automatizados](docs/TESTES_AUTOMATIZADOS.md)
+- [Documentação Geral do Projeto](docs/DOCUMENTACAO_GERAL.md)
+- [Pipeline CI/CD](docs/PIPELINE_CICD.md)
+
+---
+
+## Guia Rápido para Desenvolvimento e Implantação
+
+1. Clonar o repositório:
+
 
 ## Autor
 Márcio Teixeira da Silva  
